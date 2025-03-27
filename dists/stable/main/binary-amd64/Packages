@@ -1,0 +1,16 @@
+Package: litchain-dev
+Architecture: amd64
+Version: 1.0-1
+Priority: optional
+Section: utils
+Maintainer: Your Name <your.email@example.com>
+Depends: debootstrap, schroot, apt-transport-https, ca-certificates, curl, software-properties-common
+Filename: pool/main/litchain.deb
+Size: 1940
+MD5sum: d1cce6afdb9034f041f82d69e6408c5f
+SHA1: a76e2639db96542e41c09b7d712cb4a26685c4bb
+SHA256: e2f0273f12261ec7e658ace706d1324b53de511cb8db32c92e1f683a89da47cc
+SHA512: ab40b4a1b742124e5a4e2c28c3632bf96fdf866f9ab87d543a28428dcb505d69f3300f315485e5d5900f9000fc6cd04bca82829a0268b1138253aa388ebbbb67
+Description: Isolated Ethereum development environment
+ Contains Geth 1.12.2, Node.js v18.20.7, Solc 0.8.28, and Hardhat in chroot
+
